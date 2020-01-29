@@ -7,7 +7,29 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
-    </Grid>
+	<Grid Margin="50">
+		<Rectangle Fill="Blue"
+				   HorizontalAlignment="Stretch"
+				   VerticalAlignment="Stretch"
+				   Margin="4" />
+
+		<Border BorderThickness="4"
+				CornerRadius="10"
+				BorderBrush="Red"
+				HorizontalAlignment="Stretch"
+				VerticalAlignment="Stretch" />
+
+		<Ellipse Width="16"
+				 Height="16"
+				 HorizontalAlignment="Left"
+				 VerticalAlignment="Top"
+				 Fill="#8800ff00"
+				 Margin="4,4,0,0" />
+
+		<Ellipse Width="24"
+				 Height="24"
+				 HorizontalAlignment="Left"
+				 VerticalAlignment="Top"
+				 Fill="#88888800" />
+	</Grid>
 </Page>
